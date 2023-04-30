@@ -20,7 +20,7 @@ https://twitter.com/0002ozlet/status/1649874813920608256?s=20
 |6|TopCase|1|3D Print|||
 |7|BottomCase|1|3D Print||
 
-In addition, you will need a TRRS cable, USB cable, keycaps, etc.
+In addition, you will need a USB cable, keycaps, etc.
 <br>
-この他に、TRRSケーブル、USBケーブル、キーキャップ等が必要です。
+この他に、USBケーブル、キーキャップ等が必要です。
 <br>
