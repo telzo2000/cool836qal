@@ -124,6 +124,7 @@ QMK_FirmwareをPCからRP-2040Zeroにインストールしてください。
 
 ### Build 2(case)
 
+more later
 
 <br>
 
