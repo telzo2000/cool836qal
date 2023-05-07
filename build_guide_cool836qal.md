@@ -66,7 +66,6 @@ After soldering, use nippers to cut off the protruding legs.
 
 [８倍速　Diodeハンダ付け動画](https://youtu.be/Yaodh2-XxV4)
 
-
 <br>
 <br>
 
@@ -92,6 +91,7 @@ Place the back side of the PCB and the back side of the RP-2040Zero facing each 
 <br>
 PCBの裏面とRP-2040Zeroの裏面が向かい合うようにして置き、それぞれの端子をハンダ付けします。
 <br>
+<br>
 
 ### 4 Instorlling QMK＿Firmware
 
@@ -104,19 +104,19 @@ QMK_FirmwareをPCからRP-2040Zeroにインストールしてください。
 <br>
 ①https://github.com/telzo2000/cool836qal/blob/main/firmware/cool836qal_via.uf2 をPCにダウンロードしておく。
 
-<br>
+<br><br>
 ② Connect the PC and RP-2040Zero with a USB cable.
 <br>
 ②PCとRP-2040ZeroをUSBケーブルで繋ぐ。
-<br>
+<br><br>
 ③Press the reset button while pressing the boost button on the RP-2040Zero.
 <br>
 ③RP-2040Zeroのboostボタン押しながら、resetボタンを押す。
-<br>
+<br><br>
 ④Since there is a folder of RP-2040Zero on the PC screen, drag and drop the downloaded cool836qal.uf2 there.
 <br>
 ④PC画面にはRP-2040Zeroのフォルダがあるので、そこに、ダウンロードしたcool836qal.uf2をドラッグアンドドロップする。
-<br>
+<br><br>
 
 ⑤Check if it is recognized by connecting to remap. Edit the keymap accordingly.
 <br>
