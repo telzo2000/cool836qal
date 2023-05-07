@@ -3,33 +3,21 @@
 ## Firmware
 
 ###  QMK_FIRMWARE
-[Here](https://github.com/telzo2000/cool536/tree/main/firmware)
+[Here](https://github.com/telzo2000/cool836qal/tree/main/firmware)
 
 <br>
-[remap](https://remap-keys.app/)
+[remap](https://remap-keys.app/catalog/FEmXx8GyuKYuJ5JSfcQG)
 
 <br>
 
-## Build 1(PCB only)
+## Build 1
 
-### 1 Parts check
-
-The cool536 is a PCB that uses both the front and back sides for left and right PCBs.
-<br>
-The part where the corner is cut diagonally will be the outside of the left and right.
-<br>
-<br>
-cool536は左右のPCBに対して、表裏両面を使用するPCBです。
-<br>
-角が斜めにカットされている箇所が、左右の外側になります。
-<br>
-
-### 2 Diode soldering
+### 1 Diode soldering
 
 
-Solder the diodes to the back of each of the left and right.
+Solder the diodes to the back of PCB.
 <br>
-左右それぞれの裏面にダイオードのハンダ付けをします。
+PCBの裏面にダイオードのハンダ付けをします。
 <br>
 
 There are lead type and SMD diodes.
@@ -39,10 +27,6 @@ There are lead type and SMD diodes.
 Here, we will explain the lead type soldering.
 <br>
 ここでは、リードタイプのハンダ付けの説明をします。
-<br>
-However, those who adopt the choc switch should use SMD diodes.
-<br>
-ただし、chocスイッチを採用する人は、SMDのダイオードを使用してください。
 <br>
 
 
@@ -82,99 +66,62 @@ After soldering, use nippers to cut off the protruding legs.
 <br>
 <br>
 
-### 3 Soldering switch sockets
+### 2 Soldering switch sockets
 
 
 Solder the switch sockets on the back side.
 <br>
 裏面にスイッチソケットのハンダ付けをします。
 <br>
-cool536 is compatible with both choc and cherry MX switches.
-<br>
-cool536はchocスイッチとcherryMXスイッチの両方に対応しています。
-<br>
-Both can be installed.
-<br>
-両方を取り付けることが可能です。
-<br>
-Here, solder the cherryMX switch.
-<br>
-ここでは、cherryMXスイッチのハンダ付けを行います。
-<br>
-Place the switch socket so that the letters MX are hidden.
-<br>
-MXという文字が隠れるように、スイッチソケットを乗せてください。
-<br>
-That is the correct switch socket orientation.
-<br>
-それが正しいスイッチソケットの向きになります。
-<br>
-When using a choc switch, place the switch socket so that the letters choc are hidden.
-<br>
-chocスイッチの時は、chocという文字が隠れるように、スイッチソケットを乗せてください。
-<br>
-
-Apply solder to both pads.
-<br>
-両方のパッドにハンダを盛ります。
-<br>
-Place the switch socket and fix it with a warm soldering iron while melting the solder.
-<br>
-スイッチソケットを乗せて、温めたハンダゴテで、ハンダを溶かしながら、固定します。
-<br>
-You can make it easier by working while holding it with tweezers.
-<br>
-ピンセットで押さえながら、作業をすると楽にできます。
-<br>
 
 [８倍速　Switch socketハンダ付け動画](https://youtu.be/E__mHvmIXQo)
 
 <br><br>
 
-### 4 Soldering reset switch & TRRS jack 
+### 3　Soldering RP-2040Zero  
 
-Insert the reset switch on the surface.
+The side on which the RP-2040Zero components are mounted is the front side, and the opposite side is the back side.
 <br>
-表面にリセットスイッチを挿しこみます。
+RP-2040Zeroの部品実装されている面を表面とし、反対側を裏面とします。
 <br>
-Solder the legs of the reset switch from the back.
+Place the back side of the PCB and the back side of the RP-2040Zero facing each other and solder the respective terminals.
 <br>
-裏面からリセットスイッチの足をハンダ付けします。
-<br>
-Solder the TRRS jack in the same way near the reset switch.
-<br>
-TRRSジャックは、リセットスイッチの近くに同じようにハンダ付けします。
-<br>
-Insert the left and right TRRS jacks from the front side and solder from the back side.
-<br>
-TRRSジャックは左右１箇所ずつ、表面から差し込み、裏面からはんだ付けをしてください。
+PCBの裏面とRP-2040Zeroの裏面が向かい合うようにして置き、それぞれの端子をハンダ付けします。
 <br>
 
-[８倍速　Reset switch,TRRS jackハンダ付け動画](https://youtu.be/3gEbExaOAv4)
+### 4 Instorlling QMK＿Firmware
 
-<br><br>
-
-
-### 5　Pro micro 
-
-cool536 requires pro micro on each side.
+Install QMK_Firmware from your PC to RP-2040Zero.
 <br>
-cool536は左右それぞれにpro microが必要となります。
+QMK_FirmwareをPCからRP-2040Zeroにインストールしてください。
+<br>
+<br>
+① Download https://github.com/telzo2000/cool836qal/blob/main/firmware/cool836qal_via.uf2 to your PC.
+<br>
+①https://github.com/telzo2000/cool836qal/blob/main/firmware/cool836qal_via.uf2 をPCにダウンロードしておく。
+
+<br>
+② Connect the PC and RP-2040Zero with a USB cable.
+<br>
+②PCとRP-2040ZeroをUSBケーブルで繋ぐ。
+<br>
+③Press the reset button while pressing the boost button on the RP-2040Zero.
+<br>
+③RP-2040Zeroのboostボタン押しながら、resetボタンを押す。
+<br>
+④Since there is a folder of RP-2040Zero on the PC screen, drag and drop the downloaded cool836qal.uf2 there.
+<br>
+④PC画面にはRP-2040Zeroのフォルダがあるので、そこに、ダウンロードしたcool836qal.uf2をドラッグアンドドロップする。
 <br>
 
-Use the conthrough to fix the pro micro with the side with the parts facing down.
+⑤Check if it is recognized by connecting to remap. Edit the keymap accordingly.
 <br>
-pro microの部品のある面を下向きに、コンスルーを使い、固定してください。
+⑤remapに繋いで認識するかどうか確認する。合わせてキーマップの編集をする。
+
+### Build 2(case)
+
+
 <br>
-
-
-Pay attention to the orientation of the conthrough.
-<br>
-コンスルーの向きに注意してください。
-<br>
-
-
-
 
 <br>
 
