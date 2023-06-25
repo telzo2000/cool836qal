@@ -31,3 +31,5 @@ In addition, you will need a USB cable, keycaps, etc.
 <br>
 この他に、USBケーブル、キーキャップ等が必要です。
 <br>
+
+
