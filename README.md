@@ -2,6 +2,13 @@
 
 ![](img/img00021.jpg)
 ![](img/img00020.jpg)
+
+A newly designed keyboard inspired by QAZ's Alice layout QAL and QALBLE.<br>
+cool836qal uses RP2040-zero and runs on QMK_Firmware.
+<br>
+QAZのAliceレイアウトであるQALおよびQALBLEに影響を受けて、新しく設計したキーボードです。<br> cool836qalはRP2040-zeroを使い、QMK_Firmwareで動きます。
+<br>
+
 # Build log 
 
 https://twitter.com/0002ozlet/status/1649874813920608256?s=20
@@ -26,6 +33,7 @@ https://remap-keys.app/catalog/FEmXx8GyuKYuJ5JSfcQG
 |5|Diode<br>ダイオード|36|リードタイプでもSMDでも可|[遊舎工房](https://yushakobo.jp)<br>[Talp Keyboard](https://talpkeyboard.net)<br>[Daily Craft Keyboard](https://shop.dailycraft.jp)等|100個で220円程度から|
 |6|TopCase|1|3D Print|||
 |7|BottomCase|1|3D Print||
+
 
 In addition, you will need a USB cable, keycaps, etc.
 <br>
