@@ -21,12 +21,12 @@
         "mode":"SINGLE",
         "startup":1,
         "peripheral":{
-            "max_interval":30,
-            "min_interval":30,
+            "max_interval":15,
+            "min_interval":15,
             "slave_latency":16},
             "central":{
-                "max_interval":30,
-                "min_interval":30,
+                "max_interval":15,
+                "min_interval":15,
                 "slave_latency":0},
                 "led":{"pin":255,
                 "num":0},
