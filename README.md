@@ -9,6 +9,11 @@ cool836qal uses RP2040-zero and runs on QMK_Firmware.
 QAZのAliceレイアウトであるQALおよびQALBLEに影響を受けて、新しく設計したキーボードです。<br> cool836qalはRP2040-zeroを使い、QMK_Firmwareで動きます。
 <br>
 
+# Youtube
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cL728gJIsGw?si=RETENn39cu2OIlEn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 # Build log 
 
 https://twitter.com/0002ozlet/status/1649874813920608256?s=20
