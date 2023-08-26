@@ -142,12 +142,13 @@ I will explain using a case printed by stereolithography of black resin ordered 
 JLCPCBに発注したブラックレジンの光造形で印刷されたケースを使って説明します。家庭用AnkemakeM5で印刷したケースでも作業の手順は、基本的に同じです。
 <br>
 <br>
-Fix the magnets to the five dents inside the case with an adhesive or the like. There are 5 in the top case and 5 in the bottom case for a total of 10.Please pay attention to the polarity of the magnet. Make sure the top case and bottom case are magnetically attached.
+Fix the [magnets](https://www.amazon.co.jp/gp/product/B09BC46FQX/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1) to the five dents inside the case with an adhesive or the like. There are 5 in the top case and 5 in the bottom case for a total of 10.Please pay attention to the polarity of the magnet. Make sure the top case and bottom case are magnetically attached.
 <br>
-ケースの内側にある５つの凹みに磁石を接着剤などで固定します。トップケースに５箇所、ボトムケースに５箇所の合計10箇所です。
+ケースの内側にある５つの凹みに[磁石](https://www.amazon.co.jp/gp/product/B09BC46FQX/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&th=1)を接着剤などで固定します。トップケースに５箇所、ボトムケースに５箇所の合計10箇所です。
 極性に注意してください。トップケースとボトムケースが磁力で着くようにしてください。
 <br>
 ![](img/img00019.jpg)
+
 
 As shown in the image below, attach rubber O-rings to the four protrusions on the bottom case. This makes it a gasket mount. You can do without the O-ring, but the PCB may move up and down inside the case.
 <br>
